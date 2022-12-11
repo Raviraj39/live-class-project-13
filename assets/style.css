@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
 
 :root {
-    --primary: #713dcc;
+  --primary: #713dcc;
 }
 * {
   margin: 0;
@@ -12,17 +11,15 @@
 
 html,
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 62.5%;
-}  
+  font-family: "Roboto", sans-serif;
+}
 
 header {
   background-color: #7030cc;
   min-height: 100vh;
-  padding: 20px 14rem;
+  padding: 20px 50px;
 }
 
-/* Navbar */
 .logo {
   width: 60%;
 }
@@ -39,15 +36,14 @@ nav,
 
 nav .lists {
   display: flex;
-  gap: 5rem;
   flex-grow: 1;
   justify-content: flex-end;
 }
 
 nav .lists .list-item {
   list-style-type: none;
-  margin-right: 5rem;
-  font-size: 1.6rem;
+  margin-right: 50px;
+  font-size: 1.4em;
   cursor: pointer;
   color: #ede5f9;
 }
@@ -59,132 +55,131 @@ nav .lists .active {
 }
 
 nav button {
-  padding: 1.3rem 2.5rem;
+  padding: 20px 35px;
   background-color: #1bbcef;
   color: #fff;
   border: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 .container {
-  margin: 7rem 0;
+  margin: 110px 0;
 }
 
 .container .left-header h1 {
   color: #fff;
-  font-size: 6rem;
+  font-size: 3em;
 }
 
 .container .left-header p {
   color: #fff;
-  margin: 3rem 0;
-  font-size: 1.5rem;
+  margin: 50px 0;
+  font-size: 1.5em;
   line-height: 1.4;
   font-weight: normal;
 }
 .section-1 {
-    margin: 10rem 14rem;
-  }
-  
-  .section-1 .wrapper > div > img {
-    width: 60rem;
-  }
-  
-  .section-1 .right-section .description-list {
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
-  }
-  
-  .section-1 .wrapper {
-    margin: 6rem 0;
-  }
-  
-  .section-1 .right-section h1 {
-    margin: 4rem 0;
-    font-size: 4rem;
-  }
-  
-  .section-1 .description-list {
-    width: 40rem;
-  }
-  
-  .section-1 .description-list h4 {
-    font-size: 2.3rem;
-  }
-  
-  .section-1 .description-list p {
-    font-size: 1.4rem;
-    padding: 2rem 0;
-    margin-left: 2.3rem;
-    line-height: 1.9;
-  }
-  
-  .icon {
-    width: 5%;
-  }
+  margin: 100px 100px;
+}
 
-  .section-features-2 {
-    padding: 60px 80px;
-    text-align: center;
+.section-1 .wrapper > div > img {
+  width: 700px;
+}
+
+.section-1 .right-section .description-list {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.section-1 .wrapper {
+  margin: 50px 0;
+}
+
+.section-1 .right-section h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.section-1 .description-list {
+  width: 500px;
+}
+
+.section-1 .description-list h4 {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.section-1 .description-list p {
+  font-size: 1.4em;
+  margin-left: 40px;
+  line-height: 1.9;
+}
+
+.icon {
+  width: 5%;
+}
+
+.section-features-2 {
+  padding: 60px 80px;
+  text-align: center;
 }
 
 .section-features-2 h1 {
-    font-size: 3rem;
+  font-size: 3em;
 }
 
 .feature-cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 60px;
 }
 
 .feature-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background-color: #fff;
-    border-radius: 18px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, .2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
-.f-img-box {
-    margin-top: 40px;
-    align-self: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    width: 96px;
-    height: 96px;
-    border-radius: 48px;
-    background-color: rgb(227, 227, 227);
+.feature-box {
+  margin-top: 40px;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  border-radius: 48px;
+  background-color: rgb(227, 227, 227);
 }
 
 .f-img-box img {
-    width: 48px;
-    height: 48px;
+  width: 48px;
+  height: 48px;
 }
 
 .f-text-box {
-    margin-top: 40px;
-    padding: 40px;
-    background-color: var(--primary);
-    color: #fff;
-    border-radius: 18px;
+  margin-top: 40px;
+  padding: 40px;
+  background-color: var(--primary);
+  color: #fff;
+  border-radius: 18px;
 }
 
 .f-title {
-    font-weight: 700;
-    font-size: 2rem;
+  font-weight: 700;
+  font-size: 1.5em;
 }
 
 .f-description {
-    margin-top: 10px;
-    font-size: 1em;
+  margin-top: 10px;
+  font-size: 1em;
 }
